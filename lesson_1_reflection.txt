@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It minimizes my search through the whole file to only the places where the changes occurred so
+    I can identify the problem very quickly.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It helps me reflect on my code as I move forward, making changes becomes easier to manage. 
+    And incase if any mistake is made I can always go back to the previous version
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually Commit:
+    	Pros: 
+	    - I know what changes I have made so far so that I can turn back to after adding a new feature.
+	    - I can make one logical change and do a commit so my 'git log' is clearly understandable
+   	Cons: 
+ 	    - If I commit too often then it will clutter my git log
+	    - forgetting to commit a change can be disastrous
+	    - Since it doesn't remind us to commit I might pile up a lot of code for single commit
+    Automatic Commits:
+	Pros:
+	    - I dont have to worry about saving the file, it is done by itself
+	Cons:
+	    - Too many commits before I know it 
+	    - Hard to keep track of logical changes as the commits are done with time intervals
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git was built for programming purpose, so that the related code is always traceable through a single commit,
+    while Google docs is built for files in general which could include anything from text files to documents.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log displays all the commits done by everyone also including the unique commit id and description
+    git diff <id 1> <id 2> shows all the code differences between these two commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can always use 'git checkout' command to go back to previous commit, so I dont have to worry
+    about making changes or breaking code after I did a commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'll use it for all my java and android projects
